@@ -10,9 +10,9 @@ filename = str()+".csv"
 #read csv file
 # 1st column is strike, 2nd column is dip, no title
 strike = np.loadtxt(filename, delimiter=",", usecols=0, dtype=int)
-print(strike)
+#print(strike)
 dip = np.loadtxt(filename, delimiter=",", usecols=1, dtype=int)
-print(dip)
+#print(dip)
 
 # tested data from Cronin(2008)
 #strike = np.array([310, 319, 322])
