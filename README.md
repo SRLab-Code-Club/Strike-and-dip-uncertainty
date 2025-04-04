@@ -18,8 +18,10 @@ Given a set of plane attitudes (strike/dip, right-hand rule), the mean value and
 5. 95% CI of strike: 95 percent confidence interval of strike for the given dataset
 6. 95% CI of dip: 95 percent confidence interval of dip for the given dataset
 
-# To ensure acceptable data quality, you should...
-Collect more than 7 attitudes for a given structure with approx. same orientation
+# It should be noted that...
+1. Collect more than 7 attitude measurements for a given structure with approximately the same orientation
+2. The uncertainty in "attitude measuring" is not considered
+3. The following paper should be read to ensure you understand how this code works
 
 # For more (mathematical) information, you can refer to...
 Cronin, V. S. (2008). Finding the mean and 95 percent confidence interval of a set of strike-and-dip or lineation data. Environmental & Engineering Geoscience, 14(2), 113-119.
