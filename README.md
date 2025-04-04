@@ -5,7 +5,7 @@ Calculate the mean value and 95 percent confidence interval for a given strike a
 Given a set of plane attitudes (strike/dip, right-hand rule), the mean value and the 95% confidence level can be calculated.
 
 # How to use it?
-1. Save the attitude data into a CSV file. The first column is strike, and the second column is dip. No title row.
+1. Save the attitude data into a CSV file. The first column is strike, and the second column is dip. No header.
 2. Open the python file
 3. Input the path of the CSV file (without filename extension) in row 8
 4. Run the code and the reults will be printed
