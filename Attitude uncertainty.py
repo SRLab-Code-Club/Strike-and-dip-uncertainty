@@ -44,21 +44,21 @@ n = np.sin(dip)
 l_mean = np.sum(l)
 m_mean = np.sum(m)
 n_mean = np.sum(n)
-print("mean l=", l_mean)
-print("mean m=", m_mean)
-print("mean n=", n_mean)
+#print("mean l=", l_mean)
+#print("mean m=", m_mean)
+#print("mean n=", n_mean)
 
 # calculate the length of the mean dip vector（R）
 vector_length = np.sqrt(l_mean**2 + m_mean**2 + n_mean**2)
-print("Mean vector length =", vector_length)
+#print("Mean vector length =", vector_length)
 
 # calculate the unit vector of the mean dip vector
 unit_vector_l = l_mean/vector_length
 unit_vector_m = m_mean/vector_length
 unit_vector_n = n_mean/vector_length
-print("Unit vector l =", unit_vector_l)
-print("Unit vector m =", unit_vector_m)
-print("Unit vector n =", unit_vector_n)
+#print("Unit vector l =", unit_vector_l)
+#print("Unit vector m =", unit_vector_m)
+#print("Unit vector n =", unit_vector_n)
 
 # calculate mean dip
 mean_dip = np.arcsin((unit_vector_n))
